@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "${workspaceRoot}\\myvenv\\Scripts\\python.exe"
+    "python.pythonPath": "${workspaceRoot}\\myvenv\\Scripts\\python.exe",
+    "python.linting.pylintArgs": ["--load-plugins", "pylint_django"]
 }
